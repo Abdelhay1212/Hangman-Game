@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#">
+    <title>HANG GAME</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- inforamtion -->
+        <div class="info">
+            <div>
+                Hangman Game
+            </div>
+            <div>
+                Word kind: <span></span>
+            </div>
+        </div>
+
+        <hr>
+        <!-- hangman box and letters box -->
+        <div class="box-holder">
+
+            <!-- hangman box -->
+            <div class="hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stand"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- letters box -->
+            <div class="letters"></div>
+        </div>
+
+        <hr>
+
+        <!-- guess letter -->
+        <div class="guessLetters"></div>
+    </div>
+    <audio src="success - SFX Producer.mp3" id="success" preload="auto"></audio>
+    <audio src="failure - SFX Producer.mp3" id="failure" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+
+</html>
